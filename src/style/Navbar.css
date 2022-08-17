@@ -1,0 +1,208 @@
+/*.Navbar
+{
+    width: 100%;
+    height: 100px;
+    background-color: #121619;
+    display: flex;
+    flex-direction: row;
+}
+.Navbar .logo
+{
+    flex: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+.Navbar .logo img 
+{
+    width: 90px;
+}
+.Navbar .nav-links
+{
+    flex: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar a 
+{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+
+}
+.Navbar .nav-links button
+{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.Navbar .nav-links svg 
+{
+    font-size: 40px;
+}
+
+.navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open img {
+    display: none;
+  }
+  
+  .navbar #close img {
+    display: inherit;
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .navbar .rightSide a {
+      display: none;
+    }
+  
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .rightSide button {
+      display: inherit;
+    }
+  }
+@media only screen and  (min-width: 600px )
+{
+    .Navbar .nav-links button
+    {
+        display: none;
+    }
+    .hiddenLinks
+    {
+        display: none;
+    }
+    
+}
+*/
+
+
+
+.Navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #121619;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Navbar.logo {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+  }
+  
+  .Navbar .logo img {
+    width: 90px;
+  }
+  
+  .Navbar .nav-links {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  .Navbar .nav-links button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Navbar .nav-links svg {
+    font-size: 40px;
+  }
+  
+  .Navbar #open {
+    padding-left: 0px;
+  }
+  .Navbar #open img {
+    display: none;
+  }
+  
+  .Navbar #close img {
+    display: inherit;
+  }
+  
+  .Navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .Navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .Navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .Navbar .logo a {
+      width: 70px;
+    }
+    .Navbar .logo {
+      padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .Navbar .nav-links a {
+      display: none;
+    }
+  
+    .Navbar .nav-links {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .Navbar .nav-links button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .Navbar .nav-links button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  }
+  
